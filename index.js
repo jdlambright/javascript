@@ -11,11 +11,3 @@ document.querySelectorAll("#list .item")[1].style.color = "blue";
 // this is how you affect an attribute first you have to get it then set it
 document.querySelector("a").getAttribute("href");
 document.querySelector("a").setAttribute("href", "https://www.bing.com");
-
-var a = 5;
-var b = 3;
-
-var c = a;
-a = b;
-
-b = c;
